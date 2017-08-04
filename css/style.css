@@ -1,0 +1,66 @@
+body{
+    margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+.board{
+    margin: 100px;
+    width: 600px;
+    height: 600px;
+    background-image: url(../img/checkers.jpg);
+    -webkit-background-size: 600px;
+         -o-background-size: 600px;
+            background-size: 600px;
+    transform: rotate(15deg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.check1{
+    width: 12px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    background-color: red;
+    padding: 5px 20px;
+    float: left;
+}
+
+.row1 .check1{
+    margin: 37px 43px 0 37px;
+}
+.row1{
+    margin-left: 70px;
+}
+.row2 .check1{
+    margin: 17px 45px 0 37px;
+
+}
+.row3 .check1{
+    margin: 20px 44px 0 37px;
+}
+.row3{
+    margin-left: 65px;
+}
+.check2{
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    background-color: grey;
+    float: left;
+}
+.row4 .check2{
+    margin: 145px 48px 0 37px;
+}
+
+.row5 .check2{
+    margin: 21px 45px 0 34px;
+}
+.row5{
+    margin-left: 81px;
+}
+.row6 .check2{
+    margin: 20px 49px 0 37px;
+}
