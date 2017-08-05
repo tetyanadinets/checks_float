@@ -15,52 +15,31 @@ body{
             background-size: 600px;
     transform: rotate(15deg);
     background-repeat: no-repeat;
-    overflow: hidden;
+    padding: 25px;
 }
-.check1{
-    width: 12px;
-    height: 40px;
-    -webkit-border-radius: 50%;
-            border-radius: 50%;
-    background-color: red;
-    padding: 5px 20px;
-    float: left;
-}
-
-.row1 .check1{
-    margin: 37px 43px 0 37px;
-}
-.row1{
-    margin-left: 70px;
-}
-.row2 .check1{
-    margin: 17px 45px 0 37px;
-
-}
-.row3 .check1{
-    margin: 20px 44px 0 37px;
-}
-.row3{
-    margin-left: 65px;
-}
-.check2{
+.check{
     width: 50px;
     height: 50px;
     -webkit-border-radius: 50%;
             border-radius: 50%;
-    background-color: grey;
     float: left;
-}
-.row4 .check2{
-    margin: 145px 48px 0 37px;
+    margin: 15px 50px 0 35px;
 }
 
-.row5 .check2{
-    margin: 21px 45px 0 34px;
+.row1{
+    margin-left: 45px;
 }
-.row5{
-    margin-left: 81px;
+.row2{
+    margin-left: -23px;
 }
-.row6 .check2{
-    margin: 20px 49px 0 37px;
+.free-board{
+    width: 100%;
+    height: 140px;
 }
+.check_grey{
+    background-color: grey;
+}
+.check_red{
+    background-color: red;
+}
+
